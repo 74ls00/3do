@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -209,6 +209,13 @@
 <wire x1="18.5" y1="91.5" x2="18.5" y2="79.5" width="0.127" layer="21"/>
 <wire x1="18.5" y1="79.5" x2="33" y2="79.5" width="0.127" layer="21"/>
 <wire x1="33" y1="79.5" x2="33" y2="91.5" width="0.127" layer="21"/>
+<dimension x1="29.5" y1="110" x2="4.5" y2="104.5" x3="-4" y3="107.25" layer="21" dtype="vertical"/>
+<dimension x1="40" y1="103" x2="0" y2="102" x3="20" y3="105" layer="21" dtype="horizontal"/>
+<wire x1="14.5" y1="91.5" x2="12.5" y2="100" width="0.127" layer="21"/>
+<wire x1="37" y1="91.5" x2="39" y2="100" width="0.127" layer="21"/>
+<wire x1="14.5" y1="91.5" x2="18.5" y2="91.5" width="0.127" layer="21"/>
+<wire x1="33" y1="91.5" x2="37" y2="91.5" width="0.127" layer="21"/>
+<wire x1="40" y1="99.5" x2="40" y2="98.5" width="0.127" layer="21"/>
 </package>
 <package name="ER29">
 <wire x1="12" y1="16" x2="12" y2="-15" width="0.127" layer="21"/>
@@ -258,6 +265,12 @@
 <text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;NAME</text>
 <pad name="GND" x="1.4375" y="-4" drill="1" diameter="3"/>
+</package>
+<package name="LOGO">
+<dimension x1="-12" y1="5" x2="-11" y2="-10" x3="-11" y3="-2.5" layer="21" dtype="vertical"/>
+<text x="-8" y="-9" size="3.2" layer="21" font="vector" ratio="15">3DO</text>
+<dimension x1="-8" y1="5" x2="0" y2="8" x3="-4" y3="8" layer="21" dtype="horizontal"/>
+<circle x="-4" y="2" radius="1.5" width="3" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -390,8 +403,8 @@
 <devices>
 <device name="" package="ER29">
 <connects>
-<connect gate="G$1" pin="IN1" pad="4"/>
-<connect gate="G$1" pin="IN2" pad="5"/>
+<connect gate="G$1" pin="IN1" pad="5"/>
+<connect gate="G$1" pin="IN2" pad="4"/>
 <connect gate="G$1" pin="O1.1" pad="6"/>
 <connect gate="G$1" pin="O1.2" pad="7"/>
 <connect gate="G$1" pin="O2.1" pad="10"/>
