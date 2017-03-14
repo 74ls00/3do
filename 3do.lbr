@@ -260,6 +260,16 @@
 <text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;NAME</text>
 </package>
+<package name="C_26X9">
+<wire x1="-11" y1="5" x2="15" y2="5" width="0.127" layer="21"/>
+<wire x1="15" y1="5" x2="15" y2="-4" width="0.127" layer="21"/>
+<wire x1="15" y1="-4" x2="-11" y2="-4" width="0.127" layer="21"/>
+<wire x1="-11" y1="-4" x2="-11" y2="5" width="0.127" layer="21"/>
+<pad name="1" x="-9.4375" y="0.5" drill="1" diameter="3"/>
+<pad name="2" x="13.4375" y="0.5" drill="1" diameter="3"/>
+<text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;NAME</text>
+</package>
 <package name="C_X3_25X12">
 <wire x1="-11" y1="7" x2="14" y2="7" width="0.127" layer="21"/>
 <wire x1="14" y1="7" x2="14" y2="-5" width="0.127" layer="21"/>
@@ -481,6 +491,15 @@
 </technologies>
 </device>
 <device name="26X19" package="C_26X19">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="26X9" package="C_26X9">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
