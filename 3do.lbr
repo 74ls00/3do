@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -156,11 +156,8 @@
 <wire x1="107" y1="31" x2="77" y2="0" width="0.127" layer="20"/>
 <wire x1="100" y1="100" x2="100" y2="87.5" width="0.127" layer="20"/>
 <wire x1="100" y1="87.5" x2="107" y2="87.5" width="0.127" layer="20"/>
-<hole x="95" y="97" drill="4"/>
-<hole x="70" y="3" drill="4"/>
 <hole x="7" y="94" drill="4"/>
 <hole x="7" y="84" drill="3"/>
-<hole x="60" y="3" drill="3"/>
 <hole x="20" y="84" drill="2"/>
 <hole x="27" y="89.5" drill="2"/>
 <wire x1="18.5" y1="90.5" x2="21" y2="90.5" width="0.127" layer="20"/>
@@ -214,13 +211,46 @@
 <wire x1="14.5" y1="91.5" x2="18.5" y2="91.5" width="0.127" layer="21"/>
 <wire x1="33" y1="91.5" x2="37" y2="91.5" width="0.127" layer="21"/>
 <wire x1="40" y1="99.5" x2="40" y2="98.5" width="0.127" layer="21"/>
-<rectangle x1="90" y1="92" x2="100" y2="100" layer="21"/>
-<rectangle x1="65" y1="0" x2="75" y2="8" layer="21"/>
+<rectangle x1="90" y1="92" x2="100" y2="100" layer="16"/>
 <wire x1="95.5" y1="44" x2="99" y2="44" width="0.127" layer="21"/>
 <wire x1="94" y1="45.5" x2="94" y2="70" width="0.127" layer="21"/>
 <wire x1="94" y1="70" x2="99" y2="70" width="0.127" layer="21"/>
 <wire x1="99" y1="70" x2="99" y2="44" width="0.127" layer="21"/>
 <wire x1="94" y1="45.5" x2="95.5" y2="44" width="0.127" layer="21"/>
+<pad name="GND1" x="95" y="97" drill="1" diameter="6" shape="square"/>
+<pad name="GND2" x="70" y="3" drill="1" diameter="6" shape="square"/>
+<pad name="GND3" x="60" y="3" drill="1" diameter="6" shape="square"/>
+<polygon width="0.127" layer="16">
+<vertex x="55" y="5"/>
+<vertex x="58" y="8"/>
+<vertex x="73" y="8"/>
+<vertex x="75" y="6"/>
+<vertex x="75" y="0"/>
+<vertex x="55" y="0"/>
+</polygon>
+<hole x="95" y="97" drill="4"/>
+<hole x="70" y="3" drill="4"/>
+<hole x="60" y="3" drill="3"/>
+<pad name="P$1" x="7" y="84" drill="1" diameter="3"/>
+<pad name="P$2" x="7" y="94" drill="1" diameter="4"/>
+<pad name="P$3" x="20" y="84" drill="1" diameter="2"/>
+<pad name="P$4" x="27" y="89.5" drill="1" diameter="2"/>
+<pad name="P$5" x="9.5" y="63.5" drill="1" diameter="2"/>
+<pad name="P$6" x="15" y="56.5" drill="1" diameter="2"/>
+<wire x1="0" y1="97" x2="0" y2="100" width="0.3048" layer="16"/>
+<wire x1="0" y1="100" x2="3" y2="100" width="0.3048" layer="16"/>
+<wire x1="97" y1="100" x2="100" y2="100" width="0.3048" layer="16"/>
+<wire x1="100" y1="100" x2="100" y2="97" width="0.3048" layer="16"/>
+<wire x1="100" y1="90.5" x2="100" y2="87.5" width="0.3048" layer="16"/>
+<wire x1="100" y1="87.5" x2="103" y2="87.5" width="0.3048" layer="16"/>
+<wire x1="104" y1="87.5" x2="107" y2="87.5" width="0.3048" layer="16"/>
+<wire x1="107" y1="87.5" x2="107" y2="84.5" width="0.3048" layer="16"/>
+<wire x1="107" y1="34" x2="107" y2="31" width="0.3048" layer="16"/>
+<wire x1="107" y1="31" x2="105.5" y2="29.5" width="0.3048" layer="16"/>
+<wire x1="74" y1="0" x2="77" y2="0" width="0.3048" layer="16"/>
+<wire x1="77" y1="0" x2="78.5" y2="1.5" width="0.3048" layer="16"/>
+<wire x1="0" y1="3" x2="0" y2="0" width="0.3048" layer="16"/>
+<wire x1="0" y1="0" x2="3" y2="0" width="0.3048" layer="16"/>
 </package>
 <package name="ER29">
 <wire x1="12" y1="16" x2="12" y2="-15" width="0.127" layer="21"/>
@@ -259,7 +289,7 @@
 <pad name="1" x="-7.9375" y="0" drill="1" diameter="3"/>
 <pad name="2" x="7.9375" y="0" drill="1" diameter="3"/>
 <text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;NAME</text>
+<text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="C_26X9">
 <wire x1="-11" y1="5" x2="15" y2="5" width="0.127" layer="21"/>
@@ -269,7 +299,7 @@
 <pad name="1" x="-9.4375" y="0.5" drill="1" diameter="3"/>
 <pad name="2" x="13.4375" y="0.5" drill="1" diameter="3"/>
 <text x="-7.3025" y="2.2225" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;NAME</text>
+<text x="-7.3025" y="-2.8575" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="C_X3_25X12">
 <wire x1="-11" y1="7" x2="14" y2="7" width="0.127" layer="21"/>
