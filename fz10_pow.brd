@@ -148,9 +148,10 @@
 </layers>
 <board>
 <plain>
-<text x="16.51" y="87.63" size="3.048" layer="16" font="vector" ratio="15" rot="MR0">REV1.0</text>
-<text x="34.925" y="93.98" size="3.048" layer="16" font="vector" ratio="15" rot="MR0">for FZ-10</text>
+<text x="30.1625" y="92.075" size="3.048" layer="16" font="vector" ratio="15" rot="MR0">REV1.0</text>
+<text x="34.925" y="95.885" size="3.048" layer="16" font="vector" ratio="15" rot="MR0">for FZ-10</text>
 <rectangle x1="90.17" y1="92.075" x2="99.695" y2="99.695" layer="16"/>
+<text x="3.81" y="97.4725" size="3.048" layer="16" font="vector" ratio="15" rot="MR270">GITHUB.COM/74LS00/3DO</text>
 </plain>
 <libraries>
 <library name="3do">
