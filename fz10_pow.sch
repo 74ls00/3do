@@ -21161,7 +21161,7 @@ Block, Siemens and generic&lt;p&gt;
 <part name="2C2" library="rcl" deviceset="C-EU" device="050-025X075" value="10n"/>
 <part name="2VD1" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148"/>
 <part name="2R4" library="rcl" deviceset="R-EU_" device="0204/7" value="22"/>
-<part name="2C11" library="rcl" deviceset="C-EU" device="050-025X075" value="4n7"/>
+<part name="2C11" library="rcl" deviceset="C-EU" device="075-032X103" value="4n7"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="1F1" library="fuse" deviceset="SHK20L" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
