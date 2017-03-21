@@ -496,12 +496,12 @@
 <connect gate="G$1" pin="9V1" pad="10"/>
 <connect gate="G$1" pin="9V2" pad="11"/>
 <connect gate="G$1" pin="IN1" pad="5"/>
-<connect gate="G$1" pin="IN2" pad="3"/>
+<connect gate="G$1" pin="IN2" pad="2"/>
 <connect gate="G$1" pin="INC" pad="4"/>
 <connect gate="G$1" pin="O2.1" pad="6"/>
 <connect gate="G$1" pin="O2.2" pad="7"/>
 <connect gate="G$1" pin="OP1" pad="1"/>
-<connect gate="G$1" pin="OP2" pad="2"/>
+<connect gate="G$1" pin="OP2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>

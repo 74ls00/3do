@@ -456,12 +456,12 @@
 <connect gate="G$1" pin="9V1" pad="10"/>
 <connect gate="G$1" pin="9V2" pad="11"/>
 <connect gate="G$1" pin="IN1" pad="5"/>
-<connect gate="G$1" pin="IN2" pad="3"/>
+<connect gate="G$1" pin="IN2" pad="2"/>
 <connect gate="G$1" pin="INC" pad="4"/>
 <connect gate="G$1" pin="O2.1" pad="6"/>
 <connect gate="G$1" pin="O2.2" pad="7"/>
 <connect gate="G$1" pin="OP1" pad="1"/>
-<connect gate="G$1" pin="OP2" pad="2"/>
+<connect gate="G$1" pin="OP2" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21158,7 +21158,7 @@ Block, Siemens and generic&lt;p&gt;
 <part name="2VT1" library="transistor-power" deviceset="IRF3704" device="L-V"/>
 <part name="2R10" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="2T1" library="3do" deviceset="TRANS_ER29" device=""/>
-<part name="2C2" library="rcl" deviceset="C-EU" device="050-025X075" value="10n"/>
+<part name="2C2" library="rcl" deviceset="C-EU" device="075-032X103" value="10n"/>
 <part name="2VD1" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148"/>
 <part name="2R4" library="rcl" deviceset="R-EU_" device="0204/7" value="22"/>
 <part name="2C11" library="rcl" deviceset="C-EU" device="075-032X103" value="4n7"/>
@@ -21230,8 +21230,8 @@ Block, Siemens and generic&lt;p&gt;
 <sheet>
 <plain>
 <text x="162.56" y="93.98" size="1.778" layer="91" rot="R180">1</text>
-<text x="162.56" y="83.82" size="1.778" layer="91" rot="R180">2</text>
-<text x="162.56" y="101.6" size="1.778" layer="91" rot="R180">3</text>
+<text x="162.56" y="101.6" size="1.778" layer="91" rot="R180">2</text>
+<text x="162.56" y="83.82" size="1.778" layer="91" rot="R180">3</text>
 <text x="162.56" y="111.76" size="1.778" layer="91" rot="R180">5</text>
 <text x="180.34" y="101.6" size="1.778" layer="91" rot="R180">6</text>
 <text x="180.34" y="111.76" size="1.778" layer="91" rot="R180">7</text>
