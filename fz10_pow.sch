@@ -272,6 +272,17 @@
 <pad name="5" x="-8" y="-12" drill="1" diameter="3" rot="R270"/>
 <wire x1="-11" y1="13" x2="-8" y2="16" width="0.127" layer="21"/>
 <text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="7.62" size="1.27" layer="21" rot="R90">1</text>
+<text x="-3.81" y="2.54" size="1.27" layer="21" rot="R90">2</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="21" rot="R90">3</text>
+<text x="-3.81" y="-7.62" size="1.27" layer="21" rot="R90">4</text>
+<text x="-3.81" y="-12.7" size="1.27" layer="21" rot="R90">5</text>
+<text x="6.35" y="12.7" size="1.27" layer="21" rot="R90">6</text>
+<text x="6.35" y="7.62" size="1.27" layer="21" rot="R90">7</text>
+<text x="6.35" y="2.54" size="1.27" layer="21" rot="R90">8</text>
+<text x="6.35" y="-2.54" size="1.27" layer="21" rot="R90">9</text>
+<text x="6.35" y="-7.62" size="1.27" layer="21" rot="R90">10</text>
+<text x="6.35" y="-12.7" size="1.27" layer="21" rot="R90">11</text>
 </package>
 <package name="C_22X10">
 <wire x1="-11" y1="5" x2="11" y2="5" width="0.127" layer="21"/>
@@ -381,24 +392,24 @@
 <wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94" curve="180"/>
 <wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.254" layer="94" curve="180"/>
 <wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94" curve="180"/>
-<pin name="IN1" x="-10.16" y="15.24" visible="off" length="middle"/>
-<pin name="IN2" x="-10.16" y="5.08" visible="off" length="middle"/>
-<pin name="9V1" x="10.16" y="15.24" visible="off" length="middle" rot="R180"/>
-<pin name="9V2" x="10.16" y="5.08" visible="off" length="middle" rot="R180"/>
-<pin name="O2.1" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
-<pin name="O2.2" x="10.16" y="-12.7" visible="off" length="middle" rot="R180"/>
+<pin name="IN1" x="-10.16" y="15.24" visible="pad" length="middle"/>
+<pin name="IN2" x="-10.16" y="5.08" visible="pad" length="middle"/>
+<pin name="9V1" x="10.16" y="15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="9V2" x="10.16" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="O2.1" x="10.16" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="O2.2" x="10.16" y="-12.7" visible="pad" length="middle" rot="R180"/>
 <text x="-2.54" y="17.78" size="1.27" layer="95">&gt;NAME</text>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-7.62" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94" curve="-180"/>
 <wire x1="-5.08" y1="-10.16" x2="-5.08" y2="-12.7" width="0.254" layer="94" curve="-180"/>
-<pin name="OP1" x="-10.16" y="-2.54" visible="off" length="middle"/>
-<pin name="OP2" x="-10.16" y="-12.7" visible="off" length="middle"/>
+<pin name="OP1" x="-10.16" y="-2.54" visible="pad" length="middle"/>
+<pin name="OP2" x="-10.16" y="-12.7" visible="pad" length="middle"/>
 <circle x="-5" y="14" radius="0.2" width="0.8128" layer="94"/>
 <circle x="5.15" y="6.35" radius="0.2" width="0.8128" layer="94"/>
 <circle x="-5" y="-11.5" radius="0.2" width="0.8128" layer="94"/>
 <circle x="5.15" y="-11.45" radius="0.2" width="0.8128" layer="94"/>
-<pin name="INC" x="-7.62" y="10.16" visible="off" length="short"/>
+<pin name="INC" x="-7.62" y="10.16" visible="pad" length="short"/>
 </symbol>
 <symbol name="C-EU">
 <wire x1="0" y1="0" x2="0" y2="-0.508" width="0.1524" layer="94"/>
@@ -21159,7 +21170,7 @@ Block, Siemens and generic&lt;p&gt;
 <part name="2R10" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="2T1" library="3do" deviceset="TRANS_ER29" device=""/>
 <part name="2C2" library="rcl" deviceset="C-EU" device="075-032X103" value="10n"/>
-<part name="2VD1" library="diode" deviceset="1N4148" device="DO35-10" value="1N4148"/>
+<part name="2VD1" library="diode" deviceset="DIODE-" device="SOD80C" value="1N4148"/>
 <part name="2R4" library="rcl" deviceset="R-EU_" device="0204/7" value="22"/>
 <part name="2C11" library="rcl" deviceset="C-EU" device="075-032X103" value="4n7"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -21229,16 +21240,7 @@ Block, Siemens and generic&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="162.56" y="93.98" size="1.778" layer="91" rot="R180">1</text>
-<text x="162.56" y="101.6" size="1.778" layer="91" rot="R180">2</text>
-<text x="162.56" y="83.82" size="1.778" layer="91" rot="R180">3</text>
-<text x="162.56" y="111.76" size="1.778" layer="91" rot="R180">5</text>
-<text x="180.34" y="101.6" size="1.778" layer="91" rot="R180">6</text>
-<text x="180.34" y="111.76" size="1.778" layer="91" rot="R180">7</text>
-<text x="180.34" y="83.82" size="1.778" layer="91" rot="R180">10</text>
-<text x="180.34" y="93.98" size="1.778" layer="91" rot="R180">11</text>
 <text x="33.02" y="157.48" size="3.81" layer="91">github.com/74ls00/3do</text>
-<text x="162.56" y="106.68" size="1.778" layer="91" rot="R180">4</text>
 </plain>
 <instances>
 <instance part="PCB" gate="_SW" x="96.52" y="124.46" smashed="yes" rot="MR180">
