@@ -1,0 +1,8 @@
+L101 ~2mkHn
+3X10mm
+13w 0.5mm
+
+L102 ~5mkHn
+6X12mm
+15w 0.5mm
+

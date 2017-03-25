@@ -26,12 +26,10 @@ UsedLibrary="3do.lbr"
 UsedLibrary="G:/home/Documents/Projects/EAGLE/DSS-36/DSS0.lbr"
 
 [Win_1]
-Type="CAM Processor"
-Loc="332 293 931 728"
-State=0
-Number=1
-File="fz10_pow.brd"
-Job="ExportGerber.cam"
+Type="Control Panel"
+Loc="364 372 1202 822"
+State=2
+Number=0
 
 [Win_2]
 Type="Schematic Editor"
@@ -39,7 +37,7 @@ Loc="349 260 1177 873"
 State=1
 Number=2
 File="fz10_pow.sch"
-View="28.7393 21.7953 213.651 140.667"
+View="9.90891 -49.6973 329.435 155.712"
 WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.3048 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -71,16 +69,24 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 28.7393 21.7953 213.651 140.667"
+Views=" 1: 9.90891 -49.6973 329.435 155.712"
 Sheet=1
 
 [Win_3]
+Type="CAM Processor"
+Loc="332 293 931 728"
+State=2
+Number=1
+File="fz10_pow.brd"
+Job="ExportGerber.cam"
+
+[Win_4]
 Type="Board Editor"
 Loc="332 293 931 692"
 State=1
 Number=3
 File="fz10_pow.brd"
-View="-28.8438 -21.6149 193.052 121.034"
+View="-55.7427 -49.9958 210.53 121.183"
 WireWidths=" 6.4516 3.81 0.3048 0.4064 1.778 0.254 0 2.54 2.1844 1.9304 1.6764 1.4224 0.6096 0.8128 1.016 1.27"
 PadDiameters=" 0.3048 0.4064 0.6096 0.8128 1.4224 1.778 1.9304 2.54 3.81 6.4516 0 2.1844 2.286 1.27 1.016 1.6764"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -112,12 +118,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=16
-
-[Win_4]
-Type="Control Panel"
-Loc="8 289 607 688"
-State=2
-Number=0
 
 [Desktop]
 Screen="1280 1024"
