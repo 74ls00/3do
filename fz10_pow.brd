@@ -2610,7 +2610,7 @@ Block, Siemens and generic&lt;p&gt;
 <attribute name="NAME" x="77.343" y="83.2485" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="75.057" y="82.6135" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="4VD2" library="diode" package="SOD80C" value="LL4158" x="81.915" y="79.6925" smashed="yes" rot="MR270">
+<element name="4VD2" library="diode" package="SOD80C" value="LL4148" x="81.915" y="79.6925" smashed="yes" rot="MR270">
 <attribute name="NAME" x="77.343" y="76.2635" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="76.708" y="81.2165" size="1.27" layer="28" rot="MR270"/>
 </element>
@@ -2694,7 +2694,7 @@ Block, Siemens and generic&lt;p&gt;
 <attribute name="NAME" x="79.121" y="27.051" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="79.756" y="25.146" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="2R16" library="rcl" package="R1206" value="3k3" x="80.645" y="20.0025" smashed="yes" rot="MR90">
+<element name="2R16" library="rcl" package="R1206" value="10k" x="80.645" y="20.0025" smashed="yes" rot="MR90">
 <attribute name="NAME" x="82.55" y="21.9075" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="82.55" y="20.0025" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2917,6 +2917,10 @@ Block, Siemens and generic&lt;p&gt;
 <attribute name="VALUE" x="34.48050625" y="45.796203125" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="2R4B" library="rcl" package="0207/10" value="" x="34.29" y="30.48" rot="R180"/>
+<element name="2C12" library="rcl" package="C0805" value="100n" x="43.815" y="28.575" smashed="yes" rot="MR270">
+<attribute name="NAME" x="41.91" y="25.4" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="46.355" y="29.845" size="1.27" layer="28" rot="MR270"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -3248,7 +3252,8 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="42.545" y1="60.6425" x2="40.16375" y2="63.02375" width="2.54" layer="16"/>
 <wire x1="40.16375" y1="63.02375" x2="38.735" y2="65.0875" width="2.54" layer="16"/>
 <wire x1="40.16375" y1="62.07125" x2="40.16375" y2="63.02375" width="2.54" layer="16"/>
-<wire x1="44.341053125" y1="26.67" x2="35.8775" y2="26.67" width="1.4224" layer="16"/>
+<wire x1="44.341053125" y1="26.67" x2="43.815" y2="26.67" width="1.4224" layer="16"/>
+<wire x1="43.815" y1="26.67" x2="35.8775" y2="26.67" width="1.4224" layer="16"/>
 <wire x1="35.8775" y1="26.67" x2="33.02" y2="23.8125" width="1.4224" layer="16"/>
 <wire x1="68.895" y1="45.085" x2="69.85" y2="45.085" width="1.27" layer="16"/>
 <wire x1="69.85" y1="45.085" x2="70.485" y2="45.72" width="1.27" layer="16"/>
@@ -3256,6 +3261,8 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="44.341053125" y1="26.67" x2="47.888025" y2="29.581971875" width="1.4224" layer="16"/>
 <wire x1="47.888025" y1="29.581971875" x2="49.215" y2="31.543946875" width="1.27" layer="16"/>
 <wire x1="49.215" y1="31.543946875" x2="49.85" y2="31.75" width="1.27" layer="16"/>
+<contactref element="2C12" pad="2"/>
+<wire x1="43.815" y1="27.625" x2="43.815" y2="26.67" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="1DA1" pad="3"/>
@@ -3292,8 +3299,11 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="34.9225" y1="30.48" x2="39.37" y2="30.48" width="0.8128" layer="16"/>
 <wire x1="46.091971875" y1="31.378025" x2="47.625" y2="33.546053125" width="1.27" layer="16"/>
 <wire x1="47.625" y1="33.546053125" x2="47.625" y2="44.45" width="1.27" layer="16"/>
-<wire x1="39.37" y1="30.48" x2="45.193946875" y2="30.48" width="1.27" layer="16"/>
+<wire x1="39.37" y1="30.48" x2="43.815" y2="30.48" width="1.27" layer="16"/>
+<wire x1="43.815" y1="30.48" x2="45.193946875" y2="30.48" width="1.27" layer="16"/>
 <wire x1="45.193946875" y1="30.48" x2="46.091971875" y2="31.378025" width="1.27" layer="16"/>
+<contactref element="2C12" pad="1"/>
+<wire x1="43.815" y1="29.525" x2="43.815" y2="30.48" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="1DA1" pad="6"/>
