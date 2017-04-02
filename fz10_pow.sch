@@ -21169,7 +21169,7 @@ Block, Siemens and generic&lt;p&gt;
 <part name="DA2" library="v-reg" deviceset="TL431CLP" device="" value="TL431"/>
 <part name="2R14" library="rcl" deviceset="R-EU_" device="R1206" value="47k*"/>
 <part name="2C10" library="rcl" deviceset="C-EU" device="050-025X075" value="10n*"/>
-<part name="2R16" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="2R16" library="rcl" deviceset="R-EU_" device="R1206" value="8k2"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="1C7" library="rcl" deviceset="CPOL-EU" device="E10-22.5" value="47x400v"/>
@@ -21212,12 +21212,12 @@ Block, Siemens and generic&lt;p&gt;
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="3C5" library="rcl" deviceset="CPOL-EU" device="E5-8.5" value="470vfx25v"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="3R7" library="rcl" deviceset="R-EU_" device="0613/15" value="100"/>
+<part name="3R7" library="rcl" deviceset="R-EU_" device="0613/15" value="82"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="3R5A" library="rcl" deviceset="R-EU_" device="M1206" value="30k"/>
-<part name="3R5B" library="rcl" deviceset="R-EU_" device="M1206" value="56k"/>
-<part name="3R5C" library="rcl" deviceset="R-EU_" device="0207/10" value="560"/>
-<part name="3R6" library="rcl" deviceset="R-EU_" device="0204/7" value="3k9"/>
+<part name="3R5A" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="3R5B" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="3R5C" library="rcl" deviceset="R-EU_" device="0207/10"/>
+<part name="3R6" library="rcl" deviceset="R-EU_" device="0204/7" value="9k1"/>
 <part name="1C2" library="rcl" deviceset="C-EU" device="150-084X183" value="100nX250v"/>
 <part name="1RZ1" library="varistor" deviceset="S1210" device="" value=""/>
 <part name="1TH1" library="varistor" deviceset="THERMISTOR" device="-7,5" value=""/>
@@ -21253,14 +21253,14 @@ Block, Siemens and generic&lt;p&gt;
 <text x="33.02" y="149.86" size="3.81" layer="91">for FZ-10 REV 1.1</text>
 <text x="45.72" y="106.68" size="1.778" layer="91" font="vector" rot="MR180">2T1 ETD 29/16/10 2mm
 
-I   2-4 62w 0.6mm
-II 4-5 20w 0.6mm
+I   2-4 51w 0.4mm
+II 4-5 51w 0.4mm
 
-III  1-3 12w 0.2mm
+III  1-3 17w 0.2mm
 
-IV 6-7 4w 6x0.6mm
+IV 6-7 5w 6x0.55mm
 
-V 10-11 7w 4x0.6mm</text>
+V 10-11 8w 4x0.55mm</text>
 <text x="276.86" y="127" size="1.778" layer="91" rot="MR180">3L1 ~2mkHn
 3X10mm
 13w 0.5mm

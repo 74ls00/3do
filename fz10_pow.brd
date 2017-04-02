@@ -2694,7 +2694,7 @@ Block, Siemens and generic&lt;p&gt;
 <attribute name="NAME" x="79.121" y="27.051" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="79.756" y="25.146" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="2R16" library="rcl" package="R1206" value="10k" x="80.645" y="20.0025" smashed="yes" rot="MR90">
+<element name="2R16" library="rcl" package="R1206" value="8k2" x="80.645" y="20.0025" smashed="yes" rot="MR90">
 <attribute name="NAME" x="82.55" y="21.9075" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="82.55" y="20.0025" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -2824,23 +2824,23 @@ Block, Siemens and generic&lt;p&gt;
 <attribute name="NAME" x="95.2373" y="44.069" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="97.7646" y="41.1226" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="3R7" library="rcl" package="P0613/15" value="100" x="102.235" y="51.435" smashed="yes" rot="R270">
+<element name="3R7" library="rcl" package="P0613/15" value="82" x="102.235" y="51.435" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.838" y="56.0324" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="100.457" y="53.8988" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="3R5A" library="rcl" package="M1206" value="30k" x="104.14" y="36.195" smashed="yes" rot="MR90">
+<element name="3R5A" library="rcl" package="M1206" value="" x="104.14" y="36.195" smashed="yes" rot="MR90">
 <attribute name="NAME" x="105.41" y="41.275" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="105.41" y="39.37" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="3R5B" library="rcl" package="M1206" value="56k" x="98.425" y="34.29" smashed="yes" rot="MR180">
+<element name="3R5B" library="rcl" package="M1206" value="" x="98.425" y="34.29" smashed="yes" rot="MR180">
 <attribute name="NAME" x="95.25" y="33.02" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="97.155" y="36.83" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="3R5C" library="rcl" package="0207/10" value="560" x="92.075" y="31.115" smashed="yes">
+<element name="3R5C" library="rcl" package="0207/10" value="" x="92.075" y="31.115" smashed="yes">
 <attribute name="NAME" x="90.17" y="30.48" size="1.27" layer="25"/>
 <attribute name="VALUE" x="90.805" y="28.575" size="1.27" layer="27"/>
 </element>
-<element name="3R6" library="rcl" package="0204/7" value="3k9" x="85.725" y="48.26" smashed="yes" rot="R90">
+<element name="3R6" library="rcl" package="0204/7" value="9k1" x="85.725" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.36" y="46.355" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="88.265" y="46.6725" size="1.27" layer="27" rot="R90"/>
 </element>
